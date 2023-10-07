@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 import { fadeIn } from '@/variants';
 export default function Cta() {
   return (
-    <section className='pt-24 xl:pt-48 flex items-center bg-[#b2b7c2]/10' id='contacts'>
+    <section className='xl:h-screen pt-24 xl:pt-48 flex items-center bg-[#b2b7c2]/10' id='contacts'>
       <div className='container mx-auto'>
         <div className='flex flex-col md:flex-row xl:items-center '>
           {/* text */}

@@ -39,7 +39,7 @@ export default function Testimonial() {
       initial='hidden'
       whileInView={'show'}
       viewPort={{ once: false, amount: 0.6 }}
-     className='x:h-screen mt-16 mb-16 section flex items-center ' id='testimonial'>
+     className='xl:h-screen mt-16 mb-16 section flex items-center ' id='testimonial'>
       <Swiper
         pagination={{
           clickable: true,

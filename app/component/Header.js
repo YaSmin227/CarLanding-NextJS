@@ -52,6 +52,7 @@ export default function Header() {
     query: '(min-width:1300px)'
   })
   useEffect(() => {
+    
     const handelScroll = () => {
       if (window.scrollY > 10) {
         setScroll(true)
@@ -60,13 +61,16 @@ export default function Header() {
         setScroll(false)
       }
     }
-
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }
     // add eventListener 
     window.addEventListener('scroll', handelScroll);
     // remove eventListener
     return () => {
       window.removeEventListener('scroll', handelScroll);
     };
+    
   })
   // console.log(scroll);
   return (
