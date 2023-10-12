@@ -24,7 +24,7 @@ export default function About() {
     threshold: 0.5,
   })
   return (
-    <section className='min-h-screen mt-16 mb-10 xl:mt-10   flex items-center' id='about' ref={ref}>
+    <section className='min-h-screen mt-16 mb-10  xl:mt-10   flex items-center' id='about' ref={ref}>
       <div className='container mx-auto'>
         <div className='flex flex-col justify-center xl:flex-row xl:justify-between'>
           {/* image */}

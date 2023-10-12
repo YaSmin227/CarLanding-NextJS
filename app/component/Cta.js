@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 import { fadeIn } from '@/variants';
 export default function Cta() {
   return (
-    <section className='xl:h-screen pt-24 xl:pt-48 flex items-center bg-[#b2b7c2]/10' id='contacts'>
+    <section className='xl:min-h-screen pt-24 xl:pt-20 flex items-center bg-[#b2b7c2]/10' id='contacts'>
       <div className='container mx-auto'>
         <div className='flex flex-col md:flex-row xl:items-center '>
           {/* text */}
@@ -61,6 +61,7 @@ export default function Cta() {
               src={'/assets/images/cta/phone.svg'}
               width={320}
               height={640}
+              
               alt='' />
           </motion.div>
         </div>
